@@ -196,7 +196,6 @@ input, select, textarea {
 		width:100%;
 		box-sizing: inherit;
 		background:url('images/TacStreets.jpg');
-
 		}
 
 	hr {
@@ -1778,6 +1777,10 @@ input, select, textarea {
 			line-height: 1.5em;
 			text-align: inherit;
 		}
+	.custom {
+		width: 75%;
+		margin:auto;
+	}
 
 	footer {
 		margin: 2.5em 0 0 0;
@@ -2592,6 +2595,9 @@ input, select, textarea {
 			position: relative;
 			-webkit-overflow-scrolling: touch;
 			padding: 0 2em 0 2em;
+		}
+		.carousel header {
+			text-align: center;
 		}
 
 		.carousel article {
