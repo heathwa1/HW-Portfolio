@@ -2186,15 +2186,17 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
+		background-image:linear-gradient(rgba(28,9,32,0.93)10%,rgba(107,94,109,0.93)50%, rgba(28,9,32,0.93)100%), url("../../images/TacStreets.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
+		z-index: 5;
 		color: #fff;
 		text-align: center;
 		padding: 7.5em 0 2em 0;
 		cursor: default;
 	}
+
 
 		#header:before {
 			content: '';
@@ -2233,9 +2235,9 @@ input, select, textarea {
 		#header .button {
 			display: inline-block;
 			border-radius: 100%;
-			width: 4.5em;
-			height: 4.5em;
-			line-height: 4.5em;
+			width: 3.75em;
+			height: 3.75em;
+			line-height: 3.75em;
 			text-align: center;
 			font-size: 1.25em;
 			padding: 0;
