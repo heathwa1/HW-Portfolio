@@ -195,7 +195,7 @@ input, select, textarea {
 	#header-background {
 		width:100%;
 		box-sizing: inherit;
-		background:url('images/TacStreets.jpg');
+		background:url('images/header.jpg');
 		}
 
 	hr {
@@ -2183,10 +2183,20 @@ input, select, textarea {
 		}
 
 /* Header */
+/* .wrapper.style2 {
+	background-color: rgba(71,154,165,1);
+	background-image: url("images/light-bl.svg"), url("images/light-br.svg");
+	background-position: bottom left, bottom right;
+	background-repeat: no-repeat, no-repeat;
+	background-size: 25em, 25em;
+	color: #fff;
+	text-shadow: 1px 1px #000000;
+	font-weight: bolder;
+} */
 
 	#header {
 		position: relative;
-		background-image:linear-gradient(rgba(28,9,32,0.93)10%,rgba(107,94,109,0.93)50%, rgba(28,9,32,0.93)100%), url("../../images/TacStreets.jpg");
+		background-image:linear-gradient(rgba(28,9,32,0.93)10%,rgba(107,94,109,0.93)50%, rgba(28,9,32,0.93)100%), url("../../images/header.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
